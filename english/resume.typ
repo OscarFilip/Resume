@@ -131,6 +131,22 @@
       ]
     )
 
+    #section[Projects]
+
+    #entry(
+      [Rain History],
+      [Personal Project],
+      [2026 - Present],
+      [Copenhagen, Denmark],
+      [
+        - Building a Next.js and TypeScript app that uses weather history to help users judge mushroom readiness in Sweden.
+        - Designing the first product flow and shaping the app architecture with feature plans, decision logs, and UML diagrams.
+        - Implementing API routes, UI flows, and domain logic for weather history and mushroom readiness.
+        - Built an agent-assisted workflow for planning, implementation, review, and documentation.
+        - Writing Jest tests for API, service, repository, model, and validation code to keep the early codebase stable.
+      ]
+    )
+
     #section[Other Relevant Experience]
 
     #entry(
@@ -172,18 +188,19 @@
       ]
 
       #sidebar-block[Professional Profile][
-        Curious and adaptable software developer with hands-on experience in modern .NET development, JavaScript/React, microservices, and event-driven architecture. Skilled in working agile and contributing across the full lifecycle - from analysis and implementation to debugging, testing, and delivery.
+        Software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing and delivery.
 
-        Known for strong communication skills, fast learning ability, and a structured, analytical approach to problem-solving.
+        I write clear code, document decisions, and enjoy turning early ideas into working products with a steady and practical approach.
       ]
 
       #sidebar-block[Technical Skills][
         #skill-list((
           [C\# (.NET 8)],
-          [JavaScript (Node.js, React, Next.js)],
+          [TypeScript and JavaScript (Node.js, React, Next.js)],
           [PostgreSQL, SQL Server, Entity Framework],
           [Event-driven microservices using Apache Kafka],
           [Testing: Jest, xUnit],
+          [API design, validation, and domain logic],
           [Docker, Kubernetes],
           [CI/CD with GitHub Actions and Azure DevOps],
         ))
