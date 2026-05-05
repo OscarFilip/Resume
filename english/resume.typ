@@ -185,6 +185,7 @@
         #contact-line[Phone:][+46 703 27 66 02]
         #contact-line[Email:][oscarfilipisberg\@gmail.com]
         #contact-line[LinkedIn:][linkedin.com/in/oscar-filip-isberg]
+        #contact-line[GitHub:][github.com/OscarFilip]
       ]
 
       #sidebar-block[Professional Profile][
