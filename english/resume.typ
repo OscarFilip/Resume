@@ -134,7 +134,7 @@
     #section[Projects]
 
     #entry(
-      [Rain History],
+      [Mushroom Mood],
       [Personal Project],
       [2026 - Present],
       [Copenhagen, Denmark],
