@@ -183,7 +183,7 @@
     )[
       #sidebar-block[Contact Information][
         #contact-line[Phone:][+46 703 27 66 02]
-        #contact-line[Email:][oscar.f.isberg\@gmail.com]
+        #contact-line[Email:][oscarfilipisberg\@gmail.com]
         #contact-line[LinkedIn:][linkedin.com/in/oscar-filip-isberg]
         #contact-line[GitHub:][github.com/OscarFilip]
       ]
@@ -213,10 +213,8 @@
         #text(weight: "bold")[Danish:] Fully understands spoken and written Danish; good spoken proficiency
       ]
 
-      #sidebar-block[About Me][
-        This summer, I moved from Sweden into an apartment on Ægirsgade in Nørrebro, where I am enjoying the opportunities that come with living in a big city. For many seasons, I have worked as a ski instructor in Hemsedal and spent last autumn in Lofoten, Norway.
-
-        I like staying active and enjoy reading in my free time - right now, I am reading #emph[The Life of the Mind] by Hannah Arendt. Now, I am looking to find a welcoming and challenging workplace where I can settle in, contribute, and continue to grow.
+      #sidebar-block[Motivation][
+       I am interested in the Software Developer role in Digital Presence because it matches my experience with .NET, APIs, testing, and modernizing applications, while also connecting to my interest in AI-assisted development. At Maersk, I worked in a larger IT environment with .NET, microservices, user stories, documentation, and testing. I have also used Azure DevOps, Azure Functions, Docker, Kubernetes, and Next.js, and would like to contribute to Milestone’s move toward scalable Azure-based solutions.
       ]
     ]
   ],
