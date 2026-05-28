@@ -101,9 +101,9 @@
       [Göteborg, Sweden],
       [
         - Part of a team at Maersk focused on integrating customs applications within the logistics IT infrastructure.
-        - Worked on a legacy .NET Framework 4.8 system and contributed mainly to modern microservices using .NET 8.
+        - Worked on a legacy .NET Framework 4.8 system and contributed to modern ASP.NET Core/.NET 8 APIs and microservices built with FastEndpoints.
         - Followed clean architecture principles and used event-based communication with Kafka for efficient system design.
-        - Drove user story implementation and conducted testing, including unit, integration, functional, and non-functional acceptance tests using BDD.
+        - Contributed to user stories, OpenAPI-based API documentation and testing, including unit, integration, functional and non-functional acceptance tests using BDD.
         - Participated in agile processes such as hosting daily scrums, sprint demos, and facilitating team collaboration.
       ]
     )
@@ -196,12 +196,12 @@
 
       #sidebar-block[Technical Skills][
         #skill-list((
-          [C\# (.NET 8)],
+          [C\# (.NET 8, ASP.NET Core)],
           [TypeScript and JavaScript (Node.js, React, Next.js)],
           [PostgreSQL, SQL Server, Entity Framework],
           [Event-driven microservices using Apache Kafka],
           [Testing: Jest, xUnit],
-          [API design, validation, and domain logic],
+          [API design, validation, OpenAPI/Swagger and domain logic],
           [Docker, Kubernetes],
           [CI/CD with GitHub Actions and Azure DevOps],
         ))
