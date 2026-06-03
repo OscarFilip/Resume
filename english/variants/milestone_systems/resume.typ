@@ -182,10 +182,10 @@
       width: 100%,
     )[
       #sidebar-block[Contact Information][
-        #contact-line[Phone:][+46 703 27 66 02]
-        #contact-line[Email:][oscarfilipisberg\@gmail.com]
-        #contact-line[LinkedIn:][linkedin.com/in/oscar-filip-isberg]
-        #contact-line[GitHub:][github.com/OscarFilip]
+        #contact-line[Phone:][+45 93 98 66 02]
+        #contact-line[Email:][oscar.f.isberg\@gmail.com]
+        #contact-line[LinkedIn:][#box[linkedin.com/in/oscar-filip-isberg]]
+        #contact-line[GitHub:][github.com/oscarfilip]
       ]
 
       #sidebar-block[Professional Profile][
