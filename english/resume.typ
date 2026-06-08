@@ -183,10 +183,11 @@
     #box(
       fill: sidebar-bg,
       radius: 8pt,
-      inset: (x: 12pt, y: 12pt),
+      inset: (x: 12pt, top: 4pt, bottom: 24pt),
       width: 100%,
     )[
       #sidebar-block[Contact Information][
+        #contact-line[Location:][Nørrebro, Copenhagen, Denmark]
         #contact-line[Phone:][+45 93 98 66 02]
         #contact-line[Email:][oscar.f.isberg\@gmail.com]
         #contact-line[LinkedIn:][#box[linkedin.com/in/oscar-filip-isberg]]
@@ -194,7 +195,7 @@
       ]
 
       #sidebar-block[Professional Profile][
-        Software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing and delivery.
+        Copenhagen-based software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing and delivery.
 
         I have practical experience with API-based backend work, integration testing, OpenAPI-based documentation, event-driven communication and external data flows.
 
