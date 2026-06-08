@@ -100,11 +100,11 @@
       [August 2023 - July 2024],
       [Göteborg, Sweden],
       [
-        - Part of a team at Maersk focused on integrating customs applications within the logistics IT infrastructure.
-        - Worked on a legacy .NET Framework 4.8 system and contributed to modern ASP.NET Core/.NET 8 APIs and microservices built with FastEndpoints.
-        - Followed clean architecture principles and used event-based communication with Kafka for efficient system design.
-        - Contributed to user stories, OpenAPI-based API documentation and testing, including unit, integration, functional and non-functional acceptance tests using BDD.
-        - Participated in agile processes such as hosting daily scrums, sprint demos, and facilitating team collaboration.
+          - Worked in a team focused on integrating customs applications into Maersk's wider logistics IT infrastructure.
+          - Contributed to legacy .NET Framework 4.8 systems and modern ASP.NET Core/.NET 8 APIs and microservices built with FastEndpoints.
+          - Worked with API validation, logging, OpenAPI-based documentation, integration testing and event-based communication using Kafka.
+          - Contributed to user stories, unit tests, integration tests, functional tests and non-functional acceptance tests using BDD.
+          - Participated in agile work, sprint demos and collaboration with developers, product owners and other stakeholders.
       ]
     )
 
@@ -141,8 +141,8 @@
       [
         - Building a Next.js and TypeScript app that uses weather history to help users judge mushroom readiness in Sweden.
         - Designing the first product flow and shaping the app architecture with feature plans, decision logs, and UML diagrams.
-        - Implementing API routes, UI flows, and domain logic for weather history and mushroom readiness.
-        - Built an agent-assisted workflow for planning, implementation, review, and documentation.
+        - Implementing API routes, validation, data models, UI flows, domain logic and Jest tests around weather-history data and mushroom-readiness calculations.
+        - Built an AI-assisted development workflow using feature plans, decision logs, execution logs, reviews and documentation to keep implementation and quality work traceable.
         - Writing Jest tests for API, service, repository, model, and validation code to keep the early codebase stable.
       ]
     )
@@ -196,6 +196,8 @@
       #sidebar-block[Professional Profile][
         Software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing and delivery.
 
+        I have practical experience with API-based backend work, integration testing, OpenAPI-based documentation, event-driven communication and external data flows.
+
         I write clear code, document decisions, and enjoy turning early ideas into working products with a steady and practical approach.
       ]
 
@@ -206,7 +208,7 @@
           [PostgreSQL, SQL Server, Entity Framework],
           [Event-driven microservices using Apache Kafka],
           [Testing: Jest, xUnit],
-          [API design, validation, OpenAPI/Swagger and domain logic],
+          [API development, validation, OpenAPI/Swagger, integration testing and domain logic],
           [Docker, Kubernetes],
           [CI/CD with GitHub Actions and Azure DevOps],
         ))
