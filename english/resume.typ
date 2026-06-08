@@ -52,7 +52,7 @@
   #text(size: 8.3pt, fill: muted)[#location]
   #v(0.18em)
   #body
-  #v(0.34em)
+  #v(0.22em)
 ]
 
 #let sidebar-block(title, body) = [
@@ -161,11 +161,11 @@
       ]
     )
 
-    #v(0.46em)
+    #v(0.08em)
     #text(fill: accent, weight: "bold", size: 11.2pt)[Education]
-    #v(0.12em)
+    #v(0.08em)
     #line(length: 100%, stroke: 0.55pt + rule)
-    #v(0.22em)
+    #v(0.12em)
 
     #entry(
       [IT-Högskolan],
@@ -173,7 +173,7 @@
       [August 2021 - July 2023],
       [Stockholm, Sweden],
       [
-        #set list(spacing: 0.18em)
+        #set list(spacing: 0.12em)
         - Completed courses in C\#, advanced programming, database development, web development, agile development, customer understanding, and clean code.
         - Gained practical experience through two internships.
       ]
@@ -221,9 +221,9 @@
       ]
 
       #sidebar-block[About Me][
-        Last summer, I moved from Sweden into an apartment on Ægirsgade in Nørrebro, where I am enjoying the opportunities that come with living in a big city. For many seasons, I have worked as a ski instructor in Hemsedal and spent last autumn in Lofoten, Norway.
+        Originally from Sweden and now based in Nørrebro, Copenhagen, I enjoy staying active and reading in my free time.
 
-        I like staying active and enjoy reading in my free time - right now, I am reading #emph[The Life of the Mind] by Hannah Arendt. Now, I am looking to find a welcoming and challenging workplace where I can settle in, contribute, and continue to grow.
+        After several seasons as a ski instructor in Hemsedal and time spent in Lofoten, I am looking for a welcoming and challenging workplace where I can contribute and continue to grow.
       ]
     ]
   ],
