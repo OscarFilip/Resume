@@ -4,7 +4,7 @@ This repository contains the latest version of my English resume, written in Typ
 
 ## Current Resume
 
-- [Open the latest English resume PDF](english/Oscar_Isberg_Resume.pdf)
+- [Open the latest English resume PDF](english/resume-oscar-isberg.pdf)
 - [View the Typst source](english/resume.typ)
 
 ## Repository Structure
@@ -15,7 +15,7 @@ This repository contains the latest version of my English resume, written in Typ
 
 ## Versioning
 
-- Keep [english/resume.typ](english/resume.typ) and [english/Oscar_Isberg_Resume.pdf](english/Oscar_Isberg_Resume.pdf) as the latest English version.
+- Keep [english/resume.typ](english/resume.typ) and [english/resume-oscar-isberg.pdf](english/resume-oscar-isberg.pdf) as the latest English version.
 - Keep [danish/resume.typ](danish/resume.typ) as the latest Danish source.
 - Use focused Git commits for content changes instead of creating files named `final`, `v2`, or similar.
 - Create Git tags for resume versions you send out or publish, using date-based names such as `resume-en-2026-05` or `resume-spotify-2026-05`.
@@ -24,6 +24,6 @@ This repository contains the latest version of my English resume, written in Typ
 ## Update Workflow
 
 1. Edit [english/resume.typ](english/resume.typ).
-2. Rebuild [english/Oscar_Isberg_Resume.pdf](english/Oscar_Isberg_Resume.pdf).
+2. Rebuild [english/resume-oscar-isberg.pdf](english/resume-oscar-isberg.pdf).
 3. Commit with a focused message describing the content change.
 4. Add a Git tag if the version was sent to a company or otherwise published.

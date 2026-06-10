@@ -38,13 +38,25 @@ Install the VS Code extension:
 
 ### Compile to PDF
 
-From the folder containing `*.typ`:
+For the main English resume, run:
+
+```bash
+typst compile english/resume.typ english/resume-oscar-isberg.pdf
+```
+
+To automatically recompile while editing:
+
+```bash
+typst watch english/resume.typ english/resume-oscar-isberg.pdf
+```
+
+For other resume files, compile from the folder containing `*.typ`:
 
 ```bash
 typst compile *.typ *.pdf
 ```
 
-To automatically recompile while editing:
+To automatically recompile those while editing:
 
 ```bash
 typst watch *.typ *.pdf
