@@ -146,7 +146,7 @@
       [
         - Learned company techniques and tools including Azure DevOps, Docker, Kubernetes, and JavaScript.
         - Developed part of an Azure Functions app and implemented new customer-facing functionality.
-        - Built an app with a backend in ASP.NET and extended an existing Next.js frontend, including a CI/CD pipeline in Azure DevOps hosted in a Kubernetes cluster.
+        - Built an app with a backend in ASP.NET and extended an existing Next.js frontend, working with CI/CD in Azure DevOps, Docker, and Kubernetes.
       ]
     )
 
@@ -156,7 +156,7 @@
       [August 2022 - November 2022],
       [Varberg, Sweden],
       [
-        - Rewrote a booking platform from scratch, giving the customer a more user-friendly experience.
+        - Rewrote a booking platform from scratch with a focus on creating a clearer and more user-friendly application.
         - Gained knowledge in C\# / ASP.NET, JavaScript / Vue.js, relational databases with MSSQL and Entity Framework, and logging.
       ]
     )
@@ -171,9 +171,9 @@
       [
         - Building a Next.js and TypeScript app that combines SMHI weather history and species-specific seasonal signals to help users judge whether a mushroom spot is worth checking.
         - Implemented a working spot-check flow with location and species selection, readiness label, score, confidence, seasonal state, and explanation data.
-        - Built API routes, validation, data models, domain logic, external data handling, and Jest tests across service, repository, route, model, and validation code.
+        - Built API routes, validation, data models, domain logic, external data handling, and Jest tests across service, repository, route, model, and validation layers.
         - Added beta-oriented foundations including Auth.js email sign-in, invite-only access control, Drizzle/PostgreSQL persistence, a feedback API foundation, and Vercel deployment documentation.
-        - Use an AI-assisted development workflow with plans, decision logs, reviews, tests, and documentation to keep product decisions traceable.
+        - Work with an AI-assisted development workflow using plans, decision logs, reviews, tests, and documentation to keep product decisions and implementation quality traceable.
       ]
     )
 
@@ -229,7 +229,7 @@
         #set par(leading: 0.45em, spacing: 0.38em)
         Copenhagen-based software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing, deployment, and iteration.
 
-        I have practical experience with API-based backend work, validation, integration testing, OpenAPI-based documentation, external data flows, and product-oriented foundations such as authentication, persistence, and deployment.
+        I have practical experience with API-based backend work, validation, integration testing, OpenAPI-based documentation, external data flows, and product-oriented foundations from my own project, including authentication, persistence, and deployment.
 
         I write clear code, document decisions, and enjoy turning early ideas into working products with a steady and practical approach.
       ]
