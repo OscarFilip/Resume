@@ -4,7 +4,7 @@
 )
 
 #set text(
-  font: "New Computer Modern",
+  font: "Lato",
   size: 9.1pt,
   lang: "en",
 )
@@ -62,6 +62,36 @@
 
 #let contact-line(label, value) = [
   #text(weight: "bold")[#label] #value\
+]
+
+#let contact-icon-line(icon, value) = [
+  #grid(
+    columns: (auto, 1fr),
+    gutter: 0.35em,
+    align: (left, left),
+    [#image("assets/icons/" + icon, width: 0.8em)],
+    [#value],
+  )
+]
+
+#let contact-list(items) = [
+  #grid(
+    columns: (1fr,),
+    row-gutter: 6pt,
+    ..items,
+  )
+]
+
+#let detail-list(items, gap: 0.6em) = [
+  #grid(
+    columns: (1fr,),
+    row-gutter: gap,
+    ..items,
+  )
+]
+
+#let language-line(label, value) = [
+  #text(weight: "bold")[#label] #value
 ]
 
 #let skill(label) = [
@@ -127,7 +157,7 @@
       [Varberg, Sweden],
       [
         - Rewrote a booking platform from scratch, giving the customer a more user-friendly experience.
-          - Gained knowledge in C\# / ASP.NET, JavaScript / Vue.js, relational databases with MSSQL and Entity Framework, and logging.
+        - Gained knowledge in C\# / ASP.NET, JavaScript / Vue.js, relational databases with MSSQL and Entity Framework, and logging.
       ]
     )
 
@@ -186,14 +216,17 @@
       width: 100%,
     )[
       #sidebar-block[Contact Information][
-        #contact-line[Location:][Nørrebro, Copenhagen, Denmark]
-        #contact-line[Phone:][+45 93 98 66 02]
-        #contact-line[Email:][oscar.f.isberg\@gmail.com]
-        #contact-line[LinkedIn:][#box[linkedin.com/in/oscar-filip-isberg]]
-        #contact-line[GitHub:][github.com/oscarfilip]
+        #contact-list((
+          contact-icon-line("location.svg", [Copenhagen, Denmark]),
+          contact-icon-line("phone.svg", [+45 93 98 66 02]),
+          contact-icon-line("email.svg", [oscar.f.isberg\@gmail.com]),
+          contact-icon-line("linkedin.svg", [linkedin.com/in/oscar-filip]),
+          contact-icon-line("github.svg", [github.com/oscarfilip]),
+        ))
       ]
 
       #sidebar-block[Professional Profile][
+        #set par(leading: 0.45em, spacing: 0.38em)
         Copenhagen-based software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing, deployment, and iteration.
 
         I have practical experience with API-based backend work, validation, integration testing, OpenAPI-based documentation, external data flows, and product-oriented foundations such as authentication, persistence, and deployment.
@@ -215,12 +248,16 @@
       ]
 
       #sidebar-block[Languages][
-        #contact-line[Swedish:][Native]
-        #contact-line[English:][Fluent]
-        #text(weight: "bold")[Danish:] Fully understands spoken and written Danish; good spoken proficiency
+        #set par(leading: 0.38em, spacing: 0.38em)
+        #detail-list((
+          language-line([Swedish:], [Native]),
+          language-line([English:], [Fluent]),
+          language-line([Danish:], [Fully understands spoken and written Danish; good spoken proficiency]),
+        ))
       ]
 
       #sidebar-block[About Me][
+        #set par(leading: 0.45em, spacing: 0.38em)
         Originally from Sweden and now based in Nørrebro, Copenhagen, I enjoy staying active and learning new things.
 
         After several seasons as a ski instructor in Hemsedal and time spent in Lofoten, I am looking for a welcoming workplace where I can contribute and keep growing.
