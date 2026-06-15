@@ -1,23 +1,23 @@
 #set page(
   paper: "a4",
-  margin: (x: 1.25cm, y: 1.25cm),
+  margin: (x: 1.2cm, y: 1.1cm),
 )
 
 #set text(
   font: "New Computer Modern",
-  size: 9.3pt,
+  size: 9.1pt,
   lang: "en",
 )
 
 #set par(
-  leading: 0.46em,
-  spacing: 0.45em,
+  leading: 0.35em,
+  spacing: 0.43em,
 )
 
 #set list(
   indent: 0.95em,
   body-indent: 0.45em,
-  spacing: 0.35em,
+  spacing: 0.6em,
 )
 
 #let accent = rgb("#1f5d8f")
@@ -26,19 +26,19 @@
 #let rule = rgb("#b8c9d8")
 
 #let section(title) = [
-  #v(0.72em)
+  #v(0.4em)
   #text(fill: accent, weight: "bold", size: 11.2pt)[#title]
-  #v(0.16em)
+  #v(0.08em)
   #line(length: 100%, stroke: 0.55pt + rule)
-  #v(0.35em)
+  #v(0.16em)
 ]
 
 #let smallsection(title) = [
-  #v(0.68em)
+  #v(0.58em)
   #text(fill: accent, weight: "bold", size: 9.8pt)[#title]
-  #v(0.15em)
+  #v(0.11em)
   #line(length: 100%, stroke: 0.45pt + rule)
-  #v(0.28em)
+  #v(0.24em)
 ]
 
 #let entry(company, role, dates, location, body) = [
@@ -50,9 +50,9 @@
     [#text(size: 8.2pt, fill: muted)[#dates]],
   )
   #text(size: 8.3pt, fill: muted)[#location]
-  #v(0.18em)
+  #v(0.16em)
   #body
-  #v(0.22em)
+  #v(0.28em)
 ]
 
 #let sidebar-block(title, body) = [
@@ -83,7 +83,7 @@
 
 #grid(
   columns: (1.95fr, 0.92fr),
-  gutter: 1.15cm,
+  gutter: 1.05cm,
   [
     #v(0.15cm)
     #text(size: 24pt, weight: "bold", fill: accent)[Oscar Isberg]
@@ -139,11 +139,11 @@
       [2026 - Present],
       [Copenhagen, Denmark],
       [
-        - Building a Next.js and TypeScript app that uses weather history to help users judge mushroom readiness in Sweden.
-        - Designing the first product flow and shaping the app architecture with feature plans, decision logs, and UML diagrams.
-        - Implementing API routes, validation, data models, UI flows, domain logic and Jest tests around weather-history data and mushroom-readiness calculations.
-        - Built an AI-assisted development workflow using feature plans, decision logs, execution logs, reviews and documentation to keep implementation and quality work traceable.
-        - Writing Jest tests for API, service, repository, model, and validation code to keep the early codebase stable.
+        - Building a Next.js and TypeScript app that combines SMHI weather history and species-specific seasonal signals to help users judge whether a mushroom spot is worth checking.
+        - Implemented a working spot-check flow with location and species selection, readiness label, score, confidence, seasonal state, and explanation data.
+        - Built API routes, validation, data models, domain logic, external data handling, and Jest tests across service, repository, route, model, and validation code.
+        - Added beta-oriented foundations including Auth.js email sign-in, invite-only access control, Drizzle/PostgreSQL persistence, a feedback API foundation, and Vercel deployment documentation.
+        - Use an AI-assisted development workflow with plans, decision logs, reviews, tests, and documentation to keep product decisions traceable.
       ]
     )
 
@@ -161,11 +161,11 @@
       ]
     )
 
-    #v(0.08em)
+    #v(0.02em)
     #text(fill: accent, weight: "bold", size: 11.2pt)[Education]
-    #v(0.08em)
+    #v(0.06em)
     #line(length: 100%, stroke: 0.55pt + rule)
-    #v(0.12em)
+    #v(0.08em)
 
     #entry(
       [IT-Högskolan],
@@ -173,7 +173,6 @@
       [August 2021 - July 2023],
       [Stockholm, Sweden],
       [
-        #set list(spacing: 0.12em)
         - Completed courses in C\#, advanced programming, database development, web development, agile development, customer understanding, and clean code.
         - Gained practical experience through two internships.
       ]
@@ -183,7 +182,7 @@
     #box(
       fill: sidebar-bg,
       radius: 8pt,
-      inset: (x: 12pt, top: 4pt, bottom: 24pt),
+      inset: (x: 12pt, top: 4pt, bottom: 18pt),
       width: 100%,
     )[
       #sidebar-block[Contact Information][
@@ -195,9 +194,9 @@
       ]
 
       #sidebar-block[Professional Profile][
-        Copenhagen-based software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing and delivery.
+        Copenhagen-based software developer with hands-on experience in modern .NET development, TypeScript, React, and Next.js. I work across the full lifecycle, from planning and implementation to testing, deployment, and iteration.
 
-        I have practical experience with API-based backend work, integration testing, OpenAPI-based documentation, event-driven communication and external data flows.
+        I have practical experience with API-based backend work, validation, integration testing, OpenAPI-based documentation, external data flows, and product-oriented foundations such as authentication, persistence, and deployment.
 
         I write clear code, document decisions, and enjoy turning early ideas into working products with a steady and practical approach.
       ]
@@ -206,12 +205,12 @@
         #skill-list((
           [C\# (.NET 8, ASP.NET Core)],
           [TypeScript and JavaScript (Node.js, React, Next.js)],
-          [PostgreSQL, SQL Server, Entity Framework],
+          [PostgreSQL, SQL Server, Entity Framework, Drizzle ORM],
           [Event-driven microservices using Apache Kafka],
           [Testing: Jest, xUnit],
           [API development, validation, OpenAPI/Swagger, integration testing and domain logic],
           [Docker, Kubernetes],
-          [CI/CD with GitHub Actions and Azure DevOps],
+          [CI/CD and deployment with GitHub Actions, Azure DevOps, and Vercel],
         ))
       ]
 
@@ -222,9 +221,9 @@
       ]
 
       #sidebar-block[About Me][
-        Originally from Sweden and now based in Nørrebro, Copenhagen, I enjoy staying active and reading in my free time.
+        Originally from Sweden and now based in Nørrebro, Copenhagen, I enjoy staying active and learning new things.
 
-        After several seasons as a ski instructor in Hemsedal and time spent in Lofoten, I am looking for a welcoming and challenging workplace where I can contribute and continue to grow.
+        After several seasons as a ski instructor in Hemsedal and time spent in Lofoten, I am looking for a welcoming workplace where I can contribute and keep growing.
       ]
     ]
   ],
