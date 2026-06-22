@@ -69,7 +69,7 @@
     columns: (auto, 1fr),
     gutter: 0.35em,
     align: (left, left),
-    [#image("assets/icons/" + icon, width: 0.8em)],
+    [#image("/assets/icons/" + icon, width: 0.8em)],
     [#value],
   )
 ]

@@ -41,25 +41,25 @@ Install the VS Code extension:
 For the main English resume, run:
 
 ```bash
-typst compile english/resume.typ english/resume-oscar-isberg.pdf
+typst compile --root . english/resume.typ english/resume-oscar-isberg.pdf
 ```
 
 To automatically recompile while editing:
 
 ```bash
-typst watch english/resume.typ english/resume-oscar-isberg.pdf
+typst watch --root . english/resume.typ english/resume-oscar-isberg.pdf
 ```
 
-For other resume files, compile from the folder containing `*.typ`:
+For other resume files, compile from the repository root so shared assets resolve correctly:
 
 ```bash
-typst compile *.typ *.pdf
+typst compile --root . path/to/resume.typ path/to/resume.pdf
 ```
 
 To automatically recompile those while editing:
 
 ```bash
-typst watch *.typ *.pdf
+typst watch --root . path/to/resume.typ path/to/resume.pdf
 ```
 
 ## How to edit
